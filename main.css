@@ -34,14 +34,6 @@ body {
    position: absolute;
 }
 
-/*.new-quote-form {
-  position: center;
-}*/
-
-/*.icontainer {
-/*display: run-in;*/
-/*}*/
-
 .abox {
   color: black;
   border: 2px solid grey;
@@ -58,7 +50,6 @@ body {
 }
 
 .sbutton {
-  /*display: block;*/
   position: relative;
   color: grey;
   margin: 10px 0px 0px 920px;
