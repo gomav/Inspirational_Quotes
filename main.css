@@ -1,0 +1,92 @@
+#templates {
+  display: none;
+}
+
+body {
+    background: url('ocean2.png') no-repeat center center fixed;
+    background-opacity: 1.0;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.library-name {
+  display: block;
+  font-family: 'IM Fell Great Primer', serif;
+  color: grey;
+  font-size: 60px;
+  font: red;
+  text-align: center;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+/*.new-quote-form {
+  position: center;
+}*/
+
+/*.icontainer {
+/*display: run-in;*/
+/*}*/
+
+.abox {
+  color: black;
+  border: 2px solid grey;
+  margin: 0px 10px 0px 790px;
+
+}
+.bbox {
+  position: absolute;
+  color: black;
+  height: 26px;
+  margin: 0px 0px 0px 10px;
+  border: 2px solid grey;
+
+}
+
+.sbutton {
+  /*display: block;*/
+  position: relative;
+  color: grey;
+  margin: 10px 0px 0px 920px;
+}
+
+.quote-list {
+  font-family: 'IM Fell Great Primer', serif;
+  display: block;
+  text-align: center;
+  margin-bottom: 290px;
+
+}
+
+h4 {
+  color: red
+  font-family: 'IM Fell Great Primer', serif;
+  color: black;
+  font-size: 30px;
+}
+
+em {
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: 20px;
+  color: #3A2F0B;
+  padding-bottom: 150px;
+
+}
+
+ul {
+  list-style-type: none;
+}
